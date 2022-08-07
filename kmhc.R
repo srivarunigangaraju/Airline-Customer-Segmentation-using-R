@@ -1,7 +1,7 @@
 
 
 
-setwd('C:/Users/sxg210122/Desktop/BA with R/DataSets')
+setwd('C:/Desktop/BA with R/DataSets')
 df <- read.csv('EastWestAirlinesSpring2022.csv') #Load the dataset
 View(df)
 df <- df[,-c(1)] #remove the id column
